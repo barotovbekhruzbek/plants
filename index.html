@@ -6,6 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
  <title>Plants</title>
 </head>
 <body>
@@ -22,11 +23,11 @@
             <div class="menu-link">
 
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Price</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contact">Contacts</a></li>
                 </ul>
             </div>
 
@@ -39,11 +40,11 @@
         <div class="mobile">
             <button class="close"><i class="fas fa-x"></i></button>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Price</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
         </div>
 
@@ -65,7 +66,7 @@
  </header>
 
  <main>
-     <section class="professional">
+     <section class="professional" id="about">
       <div class="container">
          <div class="gard">
              <div class="title">
@@ -80,11 +81,11 @@
      </section>
 
 <!--   service  -->
-     <section class="service">
+     <section class="service" id="service">
          <div class="container">
             <div class="service-top">
                 <div class="title-service">
-                    <h3 onclick="filterSelection('all')">Service and our <br> projects</h3>
+                    <h3>Service and our  projects</h3>
                 </div>
                 <div id="myBtnContainer">
                     <button   class="btn-service garde">Gardens</button>
@@ -158,7 +159,166 @@
              </div>
          </div>
      </section>
+
+<!-- prices  -->
+     <section class="prices" id="price">
+         <div class="container">
+                <div class="prices-main">
+                    <div class="prices-title">
+                        <h2>Prices</h2>
+                        <h3>Our best <span>gardeners</span> are ready to help you</h3>
+                    </div>
+                    <div class="prices-panel">
+                   <div class="dropdowns">
+                       <div class="dropdown">
+                           <div class="d-flex">
+                               <div class="dropdown__">
+                                   <div class="head">Basics <i class="fas fa-chevron-down"></i></div>
+                                   <ul class="dropdown__list__  ">
+                                       <li class="dropdown__item__">
+                                           <div class="text-drop">
+                                               <div class="title-item">
+                                                   <h3>Basics <i class="fas fa-angle-up active-basic"></i></h3>
+                                               </div>
+                                               <hr>
+                                               <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                               <h2><span>$15</span>/ per hour</h2>
+                                               <button>order</button>
+                                           </div>
+                                       </li>
+
+                                   </ul>
+                               </div>
+
+
+
+
+                           </div>
+                       </div>
+
+                       <div class="dropdown">
+                           <div class="d-flex">
+                               <div class="dropdown__">
+                                   <div class="head">Standard <i class="fas fa-chevron-down"></i></div>
+                                   <ul class="dropdown__list__  ">
+                                       <li class="dropdown__item__">
+                                           <div class="text-drop">
+                                               <div class="title-item">
+                                                   <h3>Standard <i class="fas fa-angle-up active-basic"></i></h3>
+                                               </div>
+                                               <hr>
+                                               <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                               <h2><span>$25</span>/ per hour</h2>
+                                               <button>order</button>
+                                           </div>
+                                       </li>
+
+                                   </ul>
+                               </div>
+
+
+
+
+                           </div>
+                       </div>
+
+
+                       <div class="dropdown">
+                           <div class="d-flex">
+                               <div class="dropdown__">
+                                   <div class="head">Pro care <i class="fas fa-chevron-down"></i></div>
+                                   <ul class="dropdown__list__  ">
+                                       <li class="dropdown__item__">
+                                           <div class="text-drop">
+                                               <div class="title-item">
+                                                   <h3>Pro care <i class="fas fa-angle-up active-basic"></i></h3>
+                                               </div>
+                                               <hr>
+                                               <p>Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                               <h2><span>$35</span>/ per hour</h2>
+                                               <button>order</button>
+                                           </div>
+                                       </li>
+
+                                   </ul>
+                               </div>
+
+
+
+
+                           </div>
+                       </div>
+                   </div>
+
+                        <div class="contact-us">
+                            <button>Contact us</button>
+                            
+                            <div class="logo-contact">
+                                <img src="images/contact.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+         </div>
+     </section>
+
+<!--  contact -->
+     <section class="contact" id="contact">
+        <div class="contact-title">Contact us</div>
+        <div class="container">
+            <div class="wrap">
+                <div class="contact-foto">
+                    <img src="images/contact_woman%201.png" alt="">
+                </div>
+                <div class="btn-drop">
+                    <!-- Remove 'active' class, this is just to show in Codepen thumbnail -->
+                    <div class="select-menu active">
+                        <div class="select-btn">
+                            <span class="sBtn-text">city</span>
+                            <i class="bx bx-chevron-down"></i>
+                        </div>
+
+                        <ul class="options">
+                            <li class="option">
+                                <i class="bx bxl-instagram-alt" style="color: #E1306C;"></i>
+                                <span class="option-text">Canandaigua, NY</span>
+                            </li>
+                            <li class="option">
+                                <i class="bx bxl-linkedin-square" style="color: #0E76A8;"></i>
+                                <span class="option-text">New York City</span>
+                            </li>
+                            <li class="option">
+                                <i class="bx bxl-facebook-circle" style="color: #4267B2;"></i>
+                                <span class="option-text">Yonkers, NY</span>
+                            </li>
+                            <li class="option">
+                                <i class="bx bxl-twitter" style="color: #1DA1F2;"></i>
+                                <span class="option-text">Sherrill, <NY></NY></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </section>
+
  </main>
+ <footer>
+    <div class="container">
+        <div class="wrap-text">
+            <p>&copy;   2022 <a href="https://github.com/">github</a></p>
+            <h2>Rolling Scopes School</h2>
+            <p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </p>
+        </div>
+    </div>
+ </footer>
 
  <script src="js/main.js"></script>
 </body>
